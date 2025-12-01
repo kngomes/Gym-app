@@ -1,16 +1,37 @@
-# nutrifit
+# NutriFit App
 
-A new Flutter project.
+Aplicativo Flutter minimalista para gerenciamento de treinos e nutrição.
 
-## Getting Started
+## 📱 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Login / Sign Up** com imagem de fundo e blur
+- **Home Page** com:
+  - Resumo rápido do treino
+  - Cards de água, refeições, progresso e alongamento
+  - Ações rápidas (Adicionar, Histórico, Métricas)
+- **Treinos**:
+  - Card do Treino do Dia
+  - Histórico dos últimos treinos
+- **Bottom Navigation** para alternar entre Home, Treinos, Nutrição e Perfil
+- **Banco de dados local (sqflite)** para CRUD rápido de treinos (to-do list de treinos)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tecnologias
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter / Dart
+- SQLite (via `sqflite` e `path`)
+- Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 💾 Banco de dados
+
+Usamos **sqflite** para salvar os treinos localmente no dispositivo, com operações CRUD:
+
+- **C**reate: Adicionar um treino
+- **R**ead: Listar treinos
+- **U**pdate: Atualizar informações de treinos
+- **D**elete: Remover treino
+
+## 🚀 Como executar
+
+1. Clone o projeto:
+```bash
+git clone https://github.com/SEU_USUARIO/REPO.git
